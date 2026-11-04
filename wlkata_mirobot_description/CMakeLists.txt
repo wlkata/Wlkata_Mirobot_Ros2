@@ -50,8 +50,5 @@ install(DIRECTORY rviz/
 install(DIRECTORY urdf/
   DESTINATION share/${PROJECT_NAME}/urdf
 )
-install(DIRECTORY textures/
-  DESTINATION share/${PROJECT_NAME}/textures
-)
 
 ament_package()
